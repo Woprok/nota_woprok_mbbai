@@ -151,10 +151,10 @@
 		}
 	},
 	"roles": [ {
-		"categories": [ "nota_woprok_mbbai.commander" ],
+		"categories": [ "nota_woprok_mbbai.commanders" ],
 		"name": "Commander"
 	}, {
-		"categories": [ "Common.groundUnits" ],
+		"categories": [ "nota_woprok_mbbai.guards" ],
 		"name": "Guards"
 	} ],
 	"root": {
