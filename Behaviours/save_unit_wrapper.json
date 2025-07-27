@@ -1,0 +1,126 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 210,
+			"width": 261
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "atlases"
+	}, {
+		"command": "Variable",
+		"name": "saveables"
+	}, {
+		"command": "Variable",
+		"name": "aidx"
+	}, {
+		"command": "Variable",
+		"name": "safe_unit"
+	}, {
+		"command": "Variable",
+		"name": "safe_atlas"
+	} ],
+	"outputs": [],
+	"properties": {
+		"0D6vNUxJro5hnaJfM4wPlCmQRmMDBP9u": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 363,
+			"y": 54
+		},
+		"C9SxYTtjZVRoANWbVfcrw5R6cdj2EkPd": {
+			"height": 206,
+			"title": "luaCondition",
+			"width": 431,
+			"x": 615,
+			"y": 4
+		},
+		"DWf4PRcyQOs52G0yGq68StSD58LjrT4d": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1083,
+			"y": 51
+		},
+		"dhZU9Gagp2ecXcXM2yeD6WoQBYkSJg2X": {
+			"height": 94,
+			"title": "remove unit",
+			"width": 246,
+			"x": 1264,
+			"y": -24
+		},
+		"eDqGCr9SEsl6XuNVqzPBfTdmFBgeW5Rg": {
+			"height": 193,
+			"title": "reference",
+			"width": 376,
+			"x": 1260,
+			"y": 72
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "dhZU9Gagp2ecXcXM2yeD6WoQBYkSJg2X",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "saveable"
+					}, {
+						"name": "value",
+						"value": "table.remove(saveables)"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "eDqGCr9SEsl6XuNVqzPBfTdmFBgeW5Rg",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_woprok_mbbai.save_unit"
+					} ],
+					"referenceInputs": [ {
+						"name": "atlas_transport",
+						"value": "atlases[aidx]"
+					}, {
+						"name": "unit_saveable",
+						"value": "saveable"
+					}, {
+						"name": "droppoint_unit",
+						"value": "safe_unit"
+					}, {
+						"name": "droppoint_atlas",
+						"value": "safe_atlas"
+					} ],
+					"referenceOutputs": []
+				} ],
+				"id": "DWf4PRcyQOs52G0yGq68StSD58LjrT4d",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "C9SxYTtjZVRoANWbVfcrw5R6cdj2EkPd",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "saveables ~= nil and #saveables > 0 and #atlases >= aidx"
+			}, {
+				"name": "repeat",
+				"value": "false"
+			} ]
+		} ],
+		"id": "0D6vNUxJro5hnaJfM4wPlCmQRmMDBP9u",
+		"nodeType": "repeat",
+		"parameters": []
+	}
+}

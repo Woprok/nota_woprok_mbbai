@@ -1,0 +1,966 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"33tg9eYIayr2MOPdV5BVQeM4HVJShMZ3": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 1613,
+			"y": 422
+		},
+		"7kDjtXI7tqQf3SfEex2e9wlplBRWKGHb": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 1323,
+			"y": 785
+		},
+		"Av2RtEQubFDLWeHkHl4GOQUtlaFN9Bcp": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 621,
+			"y": 468
+		},
+		"B0wjOD8n0IoxiDuOqzgWJ7DT0p4GYgEg": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1049,
+			"y": 420
+		},
+		"BFYC0ZUjMkwIsRr1GKgt8ZpoT25HFxox": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 2239,
+			"y": 1284
+		},
+		"GXW3AwXVOaxj1bajGqiW4yPjNfzZ2gfk": {
+			"height": 95,
+			"title": "inits units for rescue",
+			"width": 296,
+			"x": 963,
+			"y": 142
+		},
+		"GkLfXmgN0Q0Az0Duqfa2tvjgMUmwW4FP": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 1929,
+			"y": 1530
+		},
+		"GpSfp8G5CJH7UIbzb2zV0vAQwTQlpelC": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 423,
+			"x": 971,
+			"y": 293
+		},
+		"H0Vpvh4EpfeJDWHGB23EHmutI0LoWNI8": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 2239,
+			"y": 1567
+		},
+		"H5jigcwVPNeUd1GjMbq52JtZWQIpOAnT": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 2233,
+			"y": 765
+		},
+		"IxMxmoXxWNWWstYJCZI0f4KjjjrzuXP5": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 2233,
+			"y": 481
+		},
+		"K2DrA14Aoh5BZZOuGa2hNCbuTcRh3hwY": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 1619,
+			"y": 1225
+		},
+		"M092NU9TPcjw6IpakeQdpGsABELko2DC": {
+			"height": 70,
+			"title": "roleSplit",
+			"width": 202,
+			"x": 559,
+			"y": 3
+		},
+		"MMgzi4sII2rm82PbBbv552nchLsBVHEi": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 937,
+			"y": 417
+		},
+		"MuRwXE0QIj521ZASvkx4dthzxHQlgezJ": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 1938,
+			"y": 2064
+		},
+		"N7IInGGmvayWu8GZtnCqAqrE7jTlXf6g": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 1598,
+			"y": 709
+		},
+		"NSKIQyYZAV9F3G1al9KrPTNONFAMgzSb": {
+			"height": 94,
+			"title": "inits safe zone",
+			"width": 259,
+			"x": 1259,
+			"y": 193
+		},
+		"Rd4NdbQ6kM2dcJL94704H6lxYRk3mGlb": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 2248,
+			"y": 2101
+		},
+		"TIW3rhPjQr640dusYvnzknEQNgNcf33k": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 388,
+			"y": 274
+		},
+		"UC8Ul6ebf5KPS3NnyxKjHGErkaEjqUWW": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 221,
+			"y": 12
+		},
+		"YgjnVncn3Bj9YdEMOIy1i7byEGekkCZ4": {
+			"height": 54,
+			"title": "nota_common.manualMissionEnd",
+			"width": 296,
+			"x": 1432,
+			"y": 305
+		},
+		"ZHw8FV91mlzvO7rj2ZVAacHoc1IfcJej": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 1918,
+			"y": 1003
+		},
+		"ZXhg0tkxwxyAPVskTirpqX94CYNNncp0": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 1627,
+			"y": 2030
+		},
+		"ZfMitUZlEy9IExle69Q8K9ILAdzSSloY": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 1923,
+			"y": 727
+		},
+		"alhbk02RKsHOoKmgNGdkAynvAwDEMyaP": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 1923,
+			"y": 445
+		},
+		"btyN7T9Om795KjEbwq3k0XaWevsamjHS": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 1628,
+			"y": 1759
+		},
+		"chrBWRyCNrKfGvkzGkhyvjvZ0TWFwnpp": {
+			"height": 94,
+			"title": "keep alive only transports",
+			"width": 299,
+			"x": 1222,
+			"y": 481
+		},
+		"d44f0Zvj5P77BFuY3sXSVLus8SoziKSc": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 668,
+			"y": 306
+		},
+		"fYWZl7IecVQk39Yc59PqIs1pr10ctF48": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 1618,
+			"y": 1496
+		},
+		"fzOd4Arp9LxtQTSrEinehTHZm5i6Zl7a": {
+			"height": 94,
+			"title": "keep alive only rescuables",
+			"width": 304,
+			"x": 1216,
+			"y": 386
+		},
+		"gC1HFzt3zjHYsHrFzK81qZpWdtGUYqXA": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 1606,
+			"y": 964
+		},
+		"hjVmNfUA6Jjq56OM0iFId39EnZGRCJdz": {
+			"height": 93,
+			"title": "store transports",
+			"width": 245,
+			"x": 795,
+			"y": -5
+		},
+		"kdCfowA8EeVuiHS0u9bw1aTl6Vsv5Jv2": {
+			"height": 94,
+			"title": "inits all team units",
+			"width": 379,
+			"x": 592,
+			"y": 89
+		},
+		"kyIx8kw63dSrzyBPnqsvvVkUXGKDIEFP": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 1929,
+			"y": 1248
+		},
+		"l0C1kqSsSLhS9ftOH8l0obiVmFBG1N5c": {
+			"height": 94,
+			"title": "store",
+			"width": 671,
+			"x": 1520,
+			"y": 205
+		},
+		"tQcB9e5FPcdbDI268cxlqgubxMZGNMnX": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 2232,
+			"y": 1034
+		},
+		"ujM2lv3Ok1TOHOCZphPsNBGfCAoD8F6L": {
+			"height": 76,
+			"title": "parallel",
+			"width": 205,
+			"x": 733,
+			"y": 462
+		},
+		"wJQcCuqRK2XoeXKIvtJkx45lCpw9xGg0": {
+			"height": 237,
+			"title": "reference",
+			"width": 315,
+			"x": 1938,
+			"y": 1782
+		}
+	},
+	"roles": [ {
+		"categories": [ "nota_woprok_mbbai.atlas" ],
+		"name": "Atlases"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "hjVmNfUA6Jjq56OM0iFId39EnZGRCJdz",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "transports"
+				}, {
+					"name": "value",
+					"value": "units"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			} ],
+			"id": "M092NU9TPcjw6IpakeQdpGsABELko2DC",
+			"nodeType": "roleSplit",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
+		}, {
+			"children": [],
+			"id": "kdCfowA8EeVuiHS0u9bw1aTl6Vsv5Jv2",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "team_units"
+			}, {
+				"name": "value",
+				"value": "Spring.GetTeamUnits(Spring.GetMyTeamID())"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "GXW3AwXVOaxj1bajGqiW4yPjNfzZ2gfk",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "rescuables"
+			}, {
+				"name": "value",
+				"value": "GetRescueList(team_units)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "NSKIQyYZAV9F3G1al9KrPTNONFAMgzSb",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "safe_zone"
+			}, {
+				"name": "value",
+				"value": "core.MissionInfo().safeArea"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "l0C1kqSsSLhS9ftOH8l0obiVmFBG1N5c",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "safe_zone_transport"
+			}, {
+				"name": "value",
+				"value": "Vec3(safe_zone.center.x, safe_zone.center.y, safe_zone.center.z + safe_zone.radius + 100)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "YgjnVncn3Bj9YdEMOIy1i7byEGekkCZ4",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "scriptName",
+							"value": "nota_common.manualMissionEnd"
+						} ],
+						"scriptName": "nota_common.manualMissionEnd"
+					} ],
+					"id": "GpSfp8G5CJH7UIbzb2zV0vAQwTQlpelC",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "core.MissionInfo().score >= core.MissionInfo().scoreMinimal"
+					}, {
+						"name": "repeat",
+						"value": "true"
+					} ]
+				} ],
+				"id": "d44f0Zvj5P77BFuY3sXSVLus8SoziKSc",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [ {
+						"children": [ {
+							"children": [ {
+								"children": [],
+								"id": "fzOd4Arp9LxtQTSrEinehTHZm5i6Zl7a",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "var",
+									"value": "rescuables"
+								}, {
+									"name": "value",
+									"value": "GetAliveUnitsFromList(rescuables)"
+								}, {
+									"name": "scriptName",
+									"value": "store"
+								} ],
+								"scriptName": "store"
+							}, {
+								"children": [],
+								"id": "chrBWRyCNrKfGvkzGkhyvjvZ0TWFwnpp",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "var",
+									"value": "transports"
+								}, {
+									"name": "value",
+									"value": "GetAliveUnitsFromList(transports)"
+								}, {
+									"name": "scriptName",
+									"value": "store"
+								} ],
+								"scriptName": "store"
+							} ],
+							"id": "B0wjOD8n0IoxiDuOqzgWJ7DT0p4GYgEg",
+							"nodeType": "sequence",
+							"parameters": []
+						} ],
+						"id": "MMgzi4sII2rm82PbBbv552nchLsBVHEi",
+						"nodeType": "repeat",
+						"parameters": []
+					}, {
+						"children": [ {
+							"children": [],
+							"id": "33tg9eYIayr2MOPdV5BVQeM4HVJShMZ3",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "1"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "alhbk02RKsHOoKmgNGdkAynvAwDEMyaP",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "2"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "IxMxmoXxWNWWstYJCZI0f4KjjjrzuXP5",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "3"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "N7IInGGmvayWu8GZtnCqAqrE7jTlXf6g",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "4"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "ZfMitUZlEy9IExle69Q8K9ILAdzSSloY",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "5"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "H5jigcwVPNeUd1GjMbq52JtZWQIpOAnT",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "6"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "gC1HFzt3zjHYsHrFzK81qZpWdtGUYqXA",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "7"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "ZHw8FV91mlzvO7rj2ZVAacHoc1IfcJej",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "8"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "tQcB9e5FPcdbDI268cxlqgubxMZGNMnX",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "9"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "K2DrA14Aoh5BZZOuGa2hNCbuTcRh3hwY",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "10"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "kyIx8kw63dSrzyBPnqsvvVkUXGKDIEFP",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "11"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "BFYC0ZUjMkwIsRr1GKgt8ZpoT25HFxox",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "12"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "fYWZl7IecVQk39Yc59PqIs1pr10ctF48",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "13"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "GkLfXmgN0Q0Az0Duqfa2tvjgMUmwW4FP",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "14"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "H0Vpvh4EpfeJDWHGB23EHmutI0LoWNI8",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "15"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "btyN7T9Om795KjEbwq3k0XaWevsamjHS",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "16"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "wJQcCuqRK2XoeXKIvtJkx45lCpw9xGg0",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "17"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "ZXhg0tkxwxyAPVskTirpqX94CYNNncp0",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "18"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "MuRwXE0QIj521ZASvkx4dthzxHQlgezJ",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "19"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "Rd4NdbQ6kM2dcJL94704H6lxYRk3mGlb",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_woprok_mbbai.save_unit_wrapper"
+							} ],
+							"referenceInputs": [ {
+								"name": "atlases",
+								"value": "transports"
+							}, {
+								"name": "saveables",
+								"value": "rescuables"
+							}, {
+								"name": "aidx",
+								"value": "20"
+							}, {
+								"name": "safe_unit",
+								"value": "safe_zone"
+							}, {
+								"name": "safe_atlas",
+								"value": "safe_zone_transport"
+							} ],
+							"referenceOutputs": []
+						} ],
+						"id": "7kDjtXI7tqQf3SfEex2e9wlplBRWKGHb",
+						"nodeType": "parallel",
+						"parameters": [ {
+							"name": "mode",
+							"value": "all-success"
+						} ]
+					} ],
+					"id": "ujM2lv3Ok1TOHOCZphPsNBGfCAoD8F6L",
+					"nodeType": "parallel",
+					"parameters": [ {
+						"name": "mode",
+						"value": "all-success"
+					} ]
+				} ],
+				"id": "Av2RtEQubFDLWeHkHl4GOQUtlaFN9Bcp",
+				"nodeType": "repeat",
+				"parameters": []
+			} ],
+			"id": "TIW3rhPjQr640dusYvnzknEQNgNcf33k",
+			"nodeType": "parallel",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
+		} ],
+		"id": "UC8Ul6ebf5KPS3NnyxKjHGErkaEjqUWW",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
