@@ -1,5 +1,9 @@
 {
-    "formation": "0.3.x",
+    "core": "0.8.1",
+    "map": "0.5",
+    "nota_common": "0.3.4",
+    "formation": "0.3.4",
     "nota_naimad1_ctp2": "0.2.x",
-	"nota_kahlan_ttdr": "1.0"
+    "nota_kahlan_ttdr": "1.0",
+    "nota_idefix_exampreparation": "1.4"
 }

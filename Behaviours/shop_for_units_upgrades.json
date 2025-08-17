@@ -1,0 +1,412 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"0g5FKFdJLdLfsjCXZBpmYxNcyOvoqSuw": {
+			"height": 72,
+			"title": "nota_idefix_exampreparation.buyUnits",
+			"width": 305,
+			"x": 1347,
+			"y": -75
+		},
+		"19my3eu92ZceaDAs38cv3u7C1rU0IzAQ": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1488,
+			"y": -384
+		},
+		"1IqFQcubTonpEjrGzOPTzSQYDukwlwaH": {
+			"height": 74,
+			"title": "waitUntil",
+			"width": 342,
+			"x": 1348,
+			"y": -144
+		},
+		"5InapdF8EtRKDKxWinzRaAiTHDTfjxAJ": {
+			"height": 72,
+			"title": "nota_idefix_exampreparation.buyUnits",
+			"width": 305,
+			"x": 1326,
+			"y": -246
+		},
+		"EYY6NGRZxIwdCMiTW8uu9Z1I9ZuZUnyE": {
+			"height": 72,
+			"title": "nota_idefix_exampreparation.buyUnits",
+			"width": 305,
+			"x": 1682,
+			"y": -355
+		},
+		"HU9dbAxiiyqcgyPkQXdtKLH3GsrkjkaN": {
+			"height": 74,
+			"title": "waitUntil",
+			"width": 339,
+			"x": 1340,
+			"y": 13
+		},
+		"Jj6LdtBxVh1JWqUmM7USe3cGUx10EK9c": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 255,
+			"x": 706,
+			"y": -117
+		},
+		"KEq4CctZHhgY4T53vCP78WMCamR5LzGW": {
+			"height": 72,
+			"title": "wait for metal to update",
+			"width": 230,
+			"x": 554,
+			"y": 285
+		},
+		"Mcr0JURkfqZzwC8wJXvedtrXQiOCBrXG": {
+			"height": 74,
+			"title": "waitUntil",
+			"width": 342,
+			"x": 1331,
+			"y": 159
+		},
+		"NXEkT0Ss9aXuztfaWOM7OOqUqxZtsZ0h": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 275,
+			"x": 705,
+			"y": 40
+		},
+		"OvVnFPPgzgfYOG5X4nJL2vkiu5IaATWj": {
+			"height": 91,
+			"title": "luaCondition",
+			"width": 646,
+			"x": 736,
+			"y": -409
+		},
+		"bbG5BaMydbh2NicnGtGGeWiLemuGDL6o": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 197,
+			"y": 10
+		},
+		"eGSEwPfenKqNCquyQYQv5IF3B3Z7bwYk": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 232,
+			"x": 714,
+			"y": -285
+		},
+		"gG0GVfc3w5OK7CnlMCZUe3YgNH5jXgpL": {
+			"height": 72,
+			"title": "nota_idefix_exampreparation.buyUnits",
+			"width": 305,
+			"x": 1332,
+			"y": 230
+		},
+		"i5cFqaF4yCK5guXjPCxtfSACQe5ylUvW": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1158,
+			"y": -103
+		},
+		"imcdheXypg1tkCemvwyzDZUXI06m98IT": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1137,
+			"y": -274
+		},
+		"kUqceqa63yviDfLSOQHHhedLilZ4oBmt": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1143,
+			"y": 199
+		},
+		"n3wg5yvgC13TeV6cpFH7O0y5QncptHQe": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1150,
+			"y": 51
+		},
+		"qdS8dtz7WpBLW2CHc9prVif4Efrdhb2C": {
+			"height": 74,
+			"title": "waitUntil",
+			"width": 336,
+			"x": 1682,
+			"y": -431
+		},
+		"re5ud659CH71CRHWsmVQzqRPLZ2Mdntb": {
+			"height": 70,
+			"title": "selector",
+			"width": 131,
+			"x": 535,
+			"y": -423
+		},
+		"suVsP5QfkJHzbdlmscTMxnXcd0rnvZrh": {
+			"height": 72,
+			"title": "nota_idefix_exampreparation.buyUnits",
+			"width": 305,
+			"x": 1339,
+			"y": 80
+		},
+		"svDwjYcL2ByRy22vXXqqqjRGSs38dVO3": {
+			"height": 74,
+			"title": "waitUntil",
+			"width": 334,
+			"x": 1327,
+			"y": -313
+		},
+		"yQlCfaWPZ8OIGKeFBI3jnVID25ry4Vua": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 263,
+			"x": 701,
+			"y": 176
+		},
+		"zsHHCtAgy15wX3UfgskmYAbap60N8UXV": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 354,
+			"y": 9
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [ {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "qdS8dtz7WpBLW2CHc9prVif4Efrdhb2C",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "condition",
+								"value": "CanBuyUnit(bb.sd_shop, \"armfark\")"
+							}, {
+								"name": "scriptName",
+								"value": "waitUntil"
+							} ],
+							"scriptName": "waitUntil"
+						}, {
+							"children": [],
+							"id": "EYY6NGRZxIwdCMiTW8uu9Z1I9ZuZUnyE",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "unitName",
+								"value": "'armfark'"
+							}, {
+								"name": "scriptName",
+								"value": "nota_idefix_exampreparation.buyUnits"
+							} ],
+							"scriptName": "nota_idefix_exampreparation.buyUnits"
+						} ],
+						"id": "19my3eu92ZceaDAs38cv3u7C1rU0IzAQ",
+						"nodeType": "sequence",
+						"parameters": []
+					} ],
+					"id": "OvVnFPPgzgfYOG5X4nJL2vkiu5IaATWj",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "global.gatherers_per_lane ~= nil and bb.sd_units.counts.repair < 3 * global.gatherers_per_lane"
+					}, {
+						"name": "repeat",
+						"value": "false"
+					} ]
+				}, {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "svDwjYcL2ByRy22vXXqqqjRGSs38dVO3",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "condition",
+								"value": "CanBuyUnit(bb.sd_shop, \"armspy\")"
+							}, {
+								"name": "scriptName",
+								"value": "waitUntil"
+							} ],
+							"scriptName": "waitUntil"
+						}, {
+							"children": [],
+							"id": "5InapdF8EtRKDKxWinzRaAiTHDTfjxAJ",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "unitName",
+								"value": "'armspy'"
+							}, {
+								"name": "scriptName",
+								"value": "nota_idefix_exampreparation.buyUnits"
+							} ],
+							"scriptName": "nota_idefix_exampreparation.buyUnits"
+						} ],
+						"id": "imcdheXypg1tkCemvwyzDZUXI06m98IT",
+						"nodeType": "sequence",
+						"parameters": []
+					} ],
+					"id": "eGSEwPfenKqNCquyQYQv5IF3B3Z7bwYk",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "bb.sd_units.counts.scouts < 2"
+					}, {
+						"name": "repeat",
+						"value": "false"
+					} ]
+				}, {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "1IqFQcubTonpEjrGzOPTzSQYDukwlwaH",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "condition",
+								"value": "CanBuyUnit(bb.sd_shop, \"armatlas\")"
+							}, {
+								"name": "scriptName",
+								"value": "waitUntil"
+							} ],
+							"scriptName": "waitUntil"
+						}, {
+							"children": [],
+							"id": "0g5FKFdJLdLfsjCXZBpmYxNcyOvoqSuw",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "unitName",
+								"value": "'armatlas'"
+							}, {
+								"name": "scriptName",
+								"value": "nota_idefix_exampreparation.buyUnits"
+							} ],
+							"scriptName": "nota_idefix_exampreparation.buyUnits"
+						} ],
+						"id": "i5cFqaF4yCK5guXjPCxtfSACQe5ylUvW",
+						"nodeType": "sequence",
+						"parameters": []
+					} ],
+					"id": "Jj6LdtBxVh1JWqUmM7USe3cGUx10EK9c",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "bb.sd_units.counts.transports < 5"
+					}, {
+						"name": "repeat",
+						"value": "false"
+					} ]
+				}, {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "HU9dbAxiiyqcgyPkQXdtKLH3GsrkjkaN",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "condition",
+								"value": "CanBuyUnit(bb.sd_shop, \"armmav\")"
+							}, {
+								"name": "scriptName",
+								"value": "waitUntil"
+							} ],
+							"scriptName": "waitUntil"
+						}, {
+							"children": [],
+							"id": "suVsP5QfkJHzbdlmscTMxnXcd0rnvZrh",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "unitName",
+								"value": "'armmav'"
+							}, {
+								"name": "scriptName",
+								"value": "nota_idefix_exampreparation.buyUnits"
+							} ],
+							"scriptName": "nota_idefix_exampreparation.buyUnits"
+						} ],
+						"id": "n3wg5yvgC13TeV6cpFH7O0y5QncptHQe",
+						"nodeType": "sequence",
+						"parameters": []
+					} ],
+					"id": "NXEkT0Ss9aXuztfaWOM7OOqUqxZtsZ0h",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "bb.sd_units.counts.soldiers_big < 20"
+					}, {
+						"name": "repeat",
+						"value": "false"
+					} ]
+				}, {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "Mcr0JURkfqZzwC8wJXvedtrXQiOCBrXG",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "condition",
+								"value": "CanBuyUnit(bb.sd_shop, \"armzeus\")"
+							}, {
+								"name": "scriptName",
+								"value": "waitUntil"
+							} ],
+							"scriptName": "waitUntil"
+						}, {
+							"children": [],
+							"id": "gG0GVfc3w5OK7CnlMCZUe3YgNH5jXgpL",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "unitName",
+								"value": "'armzeus'"
+							}, {
+								"name": "scriptName",
+								"value": "nota_idefix_exampreparation.buyUnits"
+							} ],
+							"scriptName": "nota_idefix_exampreparation.buyUnits"
+						} ],
+						"id": "kUqceqa63yviDfLSOQHHhedLilZ4oBmt",
+						"nodeType": "sequence",
+						"parameters": []
+					} ],
+					"id": "yQlCfaWPZ8OIGKeFBI3jnVID25ry4Vua",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "true"
+					}, {
+						"name": "repeat",
+						"value": "false"
+					} ]
+				} ],
+				"id": "re5ud659CH71CRHWsmVQzqRPLZ2Mdntb",
+				"nodeType": "selector",
+				"parameters": [ {
+					"name": "active",
+					"value": "false"
+				} ]
+			}, {
+				"children": [],
+				"id": "KEq4CctZHhgY4T53vCP78WMCamR5LzGW",
+				"nodeType": "wait",
+				"parameters": [ {
+					"name": "time",
+					"value": 2
+				} ]
+			} ],
+			"id": "zsHHCtAgy15wX3UfgskmYAbap60N8UXV",
+			"nodeType": "sequence",
+			"parameters": []
+		} ],
+		"id": "bbG5BaMydbh2NicnGtGGeWiLemuGDL6o",
+		"nodeType": "repeat",
+		"parameters": []
+	}
+}

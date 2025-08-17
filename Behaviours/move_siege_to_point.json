@@ -1,0 +1,172 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 189,
+			"width": 302
+		}
+	},
+	"inputs": [ {
+		"command": "BETS_UNIT",
+		"name": "trans"
+	}, {
+		"command": "BETS_UNIT",
+		"name": "siege"
+	}, {
+		"command": "Variable",
+		"name": "drop_trans"
+	}, {
+		"command": "Variable",
+		"name": "drop_siege"
+	} ],
+	"outputs": [],
+	"properties": {
+		"3TNpbWdJMqOn4zBxWm2njNKAFW1emI9Z": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 634,
+			"y": -28
+		},
+		"9seZrLul2ztY3T7znBg2uXPBfAtvQDSF": {
+			"height": 112,
+			"title": "nota_kahlan_ttdr.moveUnitTo",
+			"width": 324,
+			"x": 857,
+			"y": -152
+		},
+		"Btmegj7XQ7cm9ebu9J4fkkHnwm3MCqjn": {
+			"height": 54,
+			"title": "failure",
+			"width": 131,
+			"x": 635,
+			"y": 55
+		},
+		"LsET9rKGKp39hjmirWwlmMUkeTS5kw5V": {
+			"height": 92,
+			"title": "nota_kahlan_ttdr.loadUnit",
+			"width": 244,
+			"x": 841,
+			"y": -555
+		},
+		"UjruqUe7L6ouYMvnAl5IPu8yNzqTitFA": {
+			"height": 132,
+			"title": "nota_woprok_mbbai.unloadUnit",
+			"width": 282,
+			"x": 854,
+			"y": -290
+		},
+		"qZlboLxvCUpm1CbvyN9uXBm1OKKxSapA": {
+			"height": 112,
+			"title": "nota_kahlan_ttdr.moveUnitTo",
+			"width": 269,
+			"x": 847,
+			"y": -38
+		},
+		"u1Qzan1Qc4NyZuxySsAF9owiTOe5uK6H": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 218,
+			"x": 353,
+			"y": -5
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "LsET9rKGKp39hjmirWwlmMUkeTS5kw5V",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "transporter",
+					"value": "trans"
+				}, {
+					"name": "unit",
+					"value": "siege"
+				}, {
+					"name": "scriptName",
+					"value": "nota_kahlan_ttdr.loadUnit"
+				} ],
+				"scriptName": "nota_kahlan_ttdr.loadUnit"
+			}, {
+				"children": [],
+				"id": "UjruqUe7L6ouYMvnAl5IPu8yNzqTitFA",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "transporter",
+					"value": "trans"
+				}, {
+					"name": "unit",
+					"value": "siege"
+				}, {
+					"name": "position",
+					"value": "drop_siege"
+				}, {
+					"name": "radius",
+					"value": "50"
+				}, {
+					"name": "scriptName",
+					"value": "nota_woprok_mbbai.unloadUnit"
+				} ],
+				"scriptName": "nota_woprok_mbbai.unloadUnit"
+			}, {
+				"children": [],
+				"id": "9seZrLul2ztY3T7znBg2uXPBfAtvQDSF",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "position",
+					"value": "drop_siege"
+				}, {
+					"name": "unit",
+					"value": "siege"
+				}, {
+					"name": "radius",
+					"value": "50"
+				}, {
+					"name": "scriptName",
+					"value": "nota_kahlan_ttdr.moveUnitTo"
+				} ],
+				"scriptName": "nota_kahlan_ttdr.moveUnitTo"
+			}, {
+				"children": [],
+				"id": "qZlboLxvCUpm1CbvyN9uXBm1OKKxSapA",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "position",
+					"value": "drop_trans"
+				}, {
+					"name": "unit",
+					"value": "trans"
+				}, {
+					"name": "radius",
+					"value": "50"
+				}, {
+					"name": "scriptName",
+					"value": "nota_kahlan_ttdr.moveUnitTo"
+				} ],
+				"scriptName": "nota_kahlan_ttdr.moveUnitTo"
+			} ],
+			"id": "3TNpbWdJMqOn4zBxWm2njNKAFW1emI9Z",
+			"nodeType": "sequence",
+			"parameters": []
+		}, {
+			"children": [],
+			"id": "Btmegj7XQ7cm9ebu9J4fkkHnwm3MCqjn",
+			"nodeType": "failure",
+			"parameters": []
+		} ],
+		"id": "u1Qzan1Qc4NyZuxySsAF9owiTOe5uK6H",
+		"nodeType": "luaCondition",
+		"parameters": [ {
+			"name": "expression",
+			"value": "trans ~= nil and siege ~= nil"
+		}, {
+			"name": "repeat",
+			"value": "false"
+		} ]
+	}
+}

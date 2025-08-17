@@ -1,9 +1,7 @@
-MBBAI 0.1.1
+MBBAI 0.1.4
 ====
 
-*(not officially released, yet)*
-
-Trees
+Main Trees
 ----
 
 * WindSailer (sandsail2)
@@ -12,8 +10,11 @@ Trees
 * Hilltakers (ctp2)
   * moves units to hills and fights for last hill 
 
-Sensors
-----
+* operation_backdoor (swampdota)
+  * some collectio and single backdoor attack squad to clear mid lane
+
+* SuicideSavers
+  * simple pick and save, that does not even try to care about enemy positions 
 
 Dependencies
 ----

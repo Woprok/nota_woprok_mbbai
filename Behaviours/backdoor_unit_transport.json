@@ -1,0 +1,286 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 189,
+			"width": 302
+		}
+	},
+	"inputs": [ {
+		"command": "BETS_UNIT",
+		"name": "transport"
+	}, {
+		"command": "BETS_UNIT",
+		"name": "siege"
+	} ],
+	"outputs": [],
+	"properties": {
+		"02duYFmKdwdnKSEXBZYANbYmoQS2k5tf": {
+			"height": 92,
+			"title": "nota_kahlan_ttdr.loadUnit",
+			"width": 244,
+			"x": 534,
+			"y": -194
+		},
+		"3QBiMI947JSxun93H52amOMlh1AvmgEc": {
+			"height": 112,
+			"title": "nota_kahlan_ttdr.moveUnitTo",
+			"width": 324,
+			"x": 761,
+			"y": 501
+		},
+		"Cc9cNRngZ0Tx0TsqNkQA8B4JZIXES27I": {
+			"height": 112,
+			"title": "nota_kahlan_ttdr.moveUnitTo",
+			"width": 324,
+			"x": 786,
+			"y": 71
+		},
+		"DC1h22gc4hpECj5Gb07VVDfn42su3664": {
+			"height": 112,
+			"title": "nota_kahlan_ttdr.moveUnitTo",
+			"width": 324,
+			"x": 777,
+			"y": 177
+		},
+		"Ii3WDDffmheiHh4SUhVMdgk8qMoZOicf": {
+			"height": 112,
+			"title": "nota_kahlan_ttdr.moveUnitTo",
+			"width": 324,
+			"x": 783,
+			"y": -38
+		},
+		"XeKswqL59YrUASWxSdy6AvHvAGsS2YAR": {
+			"height": 132,
+			"title": "nota_woprok_mbbai.unloadUnit",
+			"width": 282,
+			"x": 759,
+			"y": 274
+		},
+		"Y7Gigiu3GogEVT2TDqI3buxTED5vvtN7": {
+			"height": 112,
+			"title": "nota_kahlan_ttdr.moveUnitTo",
+			"width": 324,
+			"x": 748,
+			"y": 707
+		},
+		"Yvj7iBWbZLid14u3MmKs9SVHrV6NiYbV": {
+			"height": 113,
+			"title": "nota_kahlan_ttdr.moveUnitTo",
+			"width": 302,
+			"x": 756,
+			"y": 599
+		},
+		"eFB55q8iX0NUHGV6Yu9xA8YUoJHbc8Dg": {
+			"height": 112,
+			"title": "nota_kahlan_ttdr.moveUnitTo",
+			"width": 324,
+			"x": 782,
+			"y": -140
+		},
+		"flSyRl85rv1AmP8l6YlpFZY784w0OTUd": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 352,
+			"y": 43
+		},
+		"ycVKUXmNnV1V8ZG7AomA7uj4rWz06Z9x": {
+			"height": 112,
+			"title": "nota_kahlan_ttdr.moveUnitTo",
+			"width": 324,
+			"x": 759,
+			"y": 398
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "02duYFmKdwdnKSEXBZYANbYmoQS2k5tf",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "transporter",
+				"value": "transport"
+			}, {
+				"name": "unit",
+				"value": "siege"
+			}, {
+				"name": "scriptName",
+				"value": "nota_kahlan_ttdr.loadUnit"
+			} ],
+			"scriptName": "nota_kahlan_ttdr.loadUnit"
+		}, {
+			"children": [],
+			"id": "eFB55q8iX0NUHGV6Yu9xA8YUoJHbc8Dg",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "position",
+				"value": "bb.sd_sb.backdoor_path[1]"
+			}, {
+				"name": "unit",
+				"value": "transport"
+			}, {
+				"name": "radius",
+				"value": "100"
+			}, {
+				"name": "scriptName",
+				"value": "nota_kahlan_ttdr.moveUnitTo"
+			} ],
+			"scriptName": "nota_kahlan_ttdr.moveUnitTo"
+		}, {
+			"children": [],
+			"id": "Ii3WDDffmheiHh4SUhVMdgk8qMoZOicf",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "position",
+				"value": "bb.sd_sb.backdoor_path[2]"
+			}, {
+				"name": "unit",
+				"value": "transport"
+			}, {
+				"name": "radius",
+				"value": "100"
+			}, {
+				"name": "scriptName",
+				"value": "nota_kahlan_ttdr.moveUnitTo"
+			} ],
+			"scriptName": "nota_kahlan_ttdr.moveUnitTo"
+		}, {
+			"children": [],
+			"id": "Cc9cNRngZ0Tx0TsqNkQA8B4JZIXES27I",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "position",
+				"value": "bb.sd_sb.backdoor_path[3]"
+			}, {
+				"name": "unit",
+				"value": "transport"
+			}, {
+				"name": "radius",
+				"value": "100"
+			}, {
+				"name": "scriptName",
+				"value": "nota_kahlan_ttdr.moveUnitTo"
+			} ],
+			"scriptName": "nota_kahlan_ttdr.moveUnitTo"
+		}, {
+			"children": [],
+			"id": "DC1h22gc4hpECj5Gb07VVDfn42su3664",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "position",
+				"value": "bb.sd_sb.backdoor_point"
+			}, {
+				"name": "unit",
+				"value": "transport"
+			}, {
+				"name": "radius",
+				"value": "100"
+			}, {
+				"name": "scriptName",
+				"value": "nota_kahlan_ttdr.moveUnitTo"
+			} ],
+			"scriptName": "nota_kahlan_ttdr.moveUnitTo"
+		}, {
+			"children": [],
+			"id": "XeKswqL59YrUASWxSdy6AvHvAGsS2YAR",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "transporter",
+				"value": "transport"
+			}, {
+				"name": "unit",
+				"value": "siege"
+			}, {
+				"name": "position",
+				"value": "bb.sd_sb.backdoor_point"
+			}, {
+				"name": "radius",
+				"value": "150"
+			}, {
+				"name": "scriptName",
+				"value": "nota_woprok_mbbai.unloadUnit"
+			} ],
+			"scriptName": "nota_woprok_mbbai.unloadUnit"
+		}, {
+			"children": [],
+			"id": "ycVKUXmNnV1V8ZG7AomA7uj4rWz06Z9x",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "position",
+				"value": "bb.sd_sb.backdoor_point"
+			}, {
+				"name": "unit",
+				"value": "siege"
+			}, {
+				"name": "radius",
+				"value": "100"
+			}, {
+				"name": "scriptName",
+				"value": "nota_kahlan_ttdr.moveUnitTo"
+			} ],
+			"scriptName": "nota_kahlan_ttdr.moveUnitTo"
+		}, {
+			"children": [],
+			"id": "3QBiMI947JSxun93H52amOMlh1AvmgEc",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "position",
+				"value": "bb.sd_sb.backdoor_path[3]"
+			}, {
+				"name": "unit",
+				"value": "transport"
+			}, {
+				"name": "radius",
+				"value": "100"
+			}, {
+				"name": "scriptName",
+				"value": "nota_kahlan_ttdr.moveUnitTo"
+			} ],
+			"scriptName": "nota_kahlan_ttdr.moveUnitTo"
+		}, {
+			"children": [],
+			"id": "Yvj7iBWbZLid14u3MmKs9SVHrV6NiYbV",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "position",
+				"value": "bb.sd_sb.backdoor_path[2]"
+			}, {
+				"name": "unit",
+				"value": "transport"
+			}, {
+				"name": "radius",
+				"value": "100"
+			}, {
+				"name": "scriptName",
+				"value": "nota_kahlan_ttdr.moveUnitTo"
+			} ],
+			"scriptName": "nota_kahlan_ttdr.moveUnitTo"
+		}, {
+			"children": [],
+			"id": "Y7Gigiu3GogEVT2TDqI3buxTED5vvtN7",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "position",
+				"value": "bb.sd_sb.backdoor_path[1]"
+			}, {
+				"name": "unit",
+				"value": "transport"
+			}, {
+				"name": "radius",
+				"value": "100"
+			}, {
+				"name": "scriptName",
+				"value": "nota_kahlan_ttdr.moveUnitTo"
+			} ],
+			"scriptName": "nota_kahlan_ttdr.moveUnitTo"
+		} ],
+		"id": "flSyRl85rv1AmP8l6YlpFZY784w0OTUd",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}

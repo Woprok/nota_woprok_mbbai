@@ -1,0 +1,219 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 110,
+			"width": 223
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "attack_size"
+	} ],
+	"outputs": [],
+	"properties": {
+		"827YcoX0pLNnvuI0vEpk5GHkFLdWiLOB": {
+			"height": 94,
+			"title": "store",
+			"width": 269,
+			"x": 1216,
+			"y": -141
+		},
+		"8cWPFpBGh1QV6qfREuOx560db7wJZJ1W": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 913,
+			"y": 12
+		},
+		"FcAvVjjRTnOqNvTxRRkXXEYIM72qpFIk": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 382,
+			"y": 11
+		},
+		"NUxYwplwdvPYCSKaby6b68jJQ4Oyqcdc": {
+			"height": 94,
+			"title": "store",
+			"width": 461,
+			"x": 574,
+			"y": -128
+		},
+		"P30UoCNvM0PbnGt7brpEGXyCmwCzvpzS": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 292,
+			"x": 589,
+			"y": 5
+		},
+		"WdfxbbeTWPwPTDmzEoagZxPeNvkVINhP": {
+			"height": 94,
+			"title": "store",
+			"width": 503,
+			"x": 1194,
+			"y": -232
+		},
+		"Xz9cU4Ya5v4qlzqto7WK5x0Y1cHJzfaq": {
+			"height": 98,
+			"title": "store",
+			"width": 623,
+			"x": 1221,
+			"y": -48
+		},
+		"geDaWwH89SCg22sqEAHPO4eJg6425TSh": {
+			"height": 172,
+			"title": "nota_woprok_mbbai.formationMoveTo",
+			"width": 326,
+			"x": 1228,
+			"y": 71
+		},
+		"qze0GorSXGDWpSaAWgNihNE1euXVfR6s": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 231,
+			"y": 6
+		},
+		"shHdmelGxcfd1P9flDppWHbJT1eGDSqC": {
+			"height": 92,
+			"title": "store",
+			"width": 207,
+			"x": 1188,
+			"y": -314
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "NUxYwplwdvPYCSKaby6b68jJQ4Oyqcdc",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "attack_squad_sizeable"
+				}, {
+					"name": "value",
+					"value": "GetBackdoorTransportList(bb.sd_sb.backdoor_point, 1000)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "shHdmelGxcfd1P9flDppWHbJT1eGDSqC",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "attack_pos"
+						}, {
+							"name": "value",
+							"value": "bb.sd_sb.base_ally"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [],
+						"id": "WdfxbbeTWPwPTDmzEoagZxPeNvkVINhP",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "attack_squad"
+						}, {
+							"name": "value",
+							"value": "GetBackdoorAttackFormationList(bb.sd_sb.backdoor_point, 1000)"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [],
+						"id": "827YcoX0pLNnvuI0vEpk5GHkFLdWiLOB",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "formDef"
+						}, {
+							"name": "value",
+							"value": "formation.Definition(\"swarm\")"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [],
+						"id": "Xz9cU4Ya5v4qlzqto7WK5x0Y1cHJzfaq",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "formRel"
+						}, {
+							"name": "value",
+							"value": "formation.StaticTransform(formDef.positions, 0, nil, Vec3(10,1,10))"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [],
+						"id": "geDaWwH89SCg22sqEAHPO4eJg6425TSh",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "groupDefintion",
+							"value": "attack_squad"
+						}, {
+							"name": "position",
+							"value": "attack_pos"
+						}, {
+							"name": "formation",
+							"value": "formRel"
+						}, {
+							"name": "fight",
+							"value": "false"
+						}, {
+							"name": "shouldGo",
+							"value": "true"
+						}, {
+							"name": "nearLeaderRadius",
+							"value": "400"
+						}, {
+							"name": "scriptName",
+							"value": "nota_woprok_mbbai.formationMoveTo"
+						} ],
+						"scriptName": "nota_woprok_mbbai.formationMoveTo"
+					} ],
+					"id": "8cWPFpBGh1QV6qfREuOx560db7wJZJ1W",
+					"nodeType": "sequence",
+					"parameters": []
+				} ],
+				"id": "P30UoCNvM0PbnGt7brpEGXyCmwCzvpzS",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "#attack_squad_sizeable >= attack_size"
+				}, {
+					"name": "repeat",
+					"value": "false"
+				} ]
+			} ],
+			"id": "FcAvVjjRTnOqNvTxRRkXXEYIM72qpFIk",
+			"nodeType": "sequence",
+			"parameters": []
+		} ],
+		"id": "qze0GorSXGDWpSaAWgNihNE1euXVfR6s",
+		"nodeType": "repeat",
+		"parameters": []
+	}
+}
