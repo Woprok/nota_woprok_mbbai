@@ -52,7 +52,7 @@
 		"VHaFmqY3jx0beSvsYgvQW3KfDEKiQ6H4": {
 			"height": 112,
 			"title": "nota_kahlan_ttdr.moveUnitTo",
-			"width": 269,
+			"width": 391,
 			"x": 940,
 			"y": 97
 		},
@@ -119,7 +119,7 @@
 					"value": "unit_saveable"
 				}, {
 					"name": "radius",
-					"value": "droppoint_unit.radius"
+					"value": "droppoint_unit.radius - droppoint_unit.radius / 4"
 				}, {
 					"name": "scriptName",
 					"value": "nota_kahlan_ttdr.moveUnitTo"
