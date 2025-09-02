@@ -200,7 +200,7 @@
 				"value": "global.gatherers_per_lane"
 			}, {
 				"name": "value",
-				"value": "1"
+				"value": "0"
 			}, {
 				"name": "scriptName",
 				"value": "store"
@@ -215,7 +215,7 @@
 				"value": "global.gatherers_max_per_lane"
 			}, {
 				"name": "value",
-				"value": "3"
+				"value": "1"
 			}, {
 				"name": "scriptName",
 				"value": "store"

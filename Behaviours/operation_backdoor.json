@@ -12,7 +12,7 @@
 		"5dqD79RYo5WIuUALmvGpDJGN3yOkGedh": {
 			"height": 110,
 			"title": "reference",
-			"width": 356,
+			"width": 372,
 			"x": 862,
 			"y": -10
 		},
@@ -33,7 +33,7 @@
 		"FoyZtD8HiH1hDoD3TcLUxxp2mrr36x3x": {
 			"height": 130,
 			"title": "reference",
-			"width": 299,
+			"width": 315,
 			"x": 874,
 			"y": 334
 		},
@@ -75,14 +75,14 @@
 		"aM5aaeWt0aNQijdOjZKUgwtL8QR7T8ti": {
 			"height": 110,
 			"title": "reference",
-			"width": 318,
+			"width": 334,
 			"x": 870,
 			"y": 219
 		},
 		"g4nwP49kLvERyoREIrsKDx2ZgVfRgHNE": {
 			"height": 110,
 			"title": "reference",
-			"width": 334,
+			"width": 350,
 			"x": 867,
 			"y": 107
 		},
@@ -287,7 +287,7 @@
 				} ],
 				"referenceInputs": [ {
 					"name": "attack_size",
-					"value": "20"
+					"value": "12"
 				} ],
 				"referenceOutputs": []
 			}, {

@@ -24,6 +24,15 @@ function appendToList(what, to)
 	return to
 end
 
+
+function appendToListAny(what, to)
+	for _, item in ipairs(what) do
+		local x, y, z = Spring.GetUnitPosition(item)
+		to[#to+1] = item
+	end
+	return to
+end
+
 -- @description returns list of units ordered by priorities (number of points)
 return function(myUnits)
 	local runners =     Sensors.core.FilterUnitsByCategory(myUnits, Categories.nota_kahlan_ttdr.runner)
@@ -34,6 +43,13 @@ return function(myUnits)
 	
 	local output = {}
 
+	appendToList(runners, output)
+	appendToList(rockos, output)
+	appendToList(bulldogs, output)
+	appendToList(hatracks, output)
+	appendToList(bods, output)
+
+	
 	appendToList(runners, output)
 	appendToList(rockos, output)
 	appendToList(bulldogs, output)
